@@ -4,7 +4,7 @@ This is realtime step counter for iOS written by swift4.2.
 ![RealtimeStepCounter-SwiftSample.png](https://github.com/AtsushiOtsubo/RealtimeStepCounter-SwiftSample/blob/images/RealtimeStepCounter-SwiftSample.png?raw=true)
 
 ## Description
-CMPedometer: iOS standard step counting library is delay several seconds until the step count. But in this sample, it is possible to measure the number of steps with realtime and high precision by using the acceleration and motion information.
+CMPedometer: iOS standard step counting library is delay several seconds until the step count. But in this sample, it is possible to measure the step count with realtime and high precision by using the acceleration and motion information.
 
 iOS標準の歩数計測ライブラリ"CMPedometer"では歩数の計測まで数秒の遅延が発生しますが，本サンプルでは加速度情報・モーション情報を用いることによりリアルタイムで高精度な歩数の計測を可能とします．
 
