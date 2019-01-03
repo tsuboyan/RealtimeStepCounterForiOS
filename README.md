@@ -1,4 +1,4 @@
-# RealtimeStepCounterForSwift
+# RealtimeStepCounter for Swift
 This is realtime step counter for iOS written by swift4.2.
 
 ![RealtimeStepCounter-SwiftSample.png](https://github.com/AtsushiOtsubo/RealtimeStepCounterForSwift/blob/images/RealtimeStepCounter-SwiftSample.png?raw=true)
