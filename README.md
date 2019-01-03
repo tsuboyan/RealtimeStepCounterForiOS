@@ -1,11 +1,15 @@
 # RealtimeStepCounter-SwiftSample
 This is realtime step counter for iOS written by swift4.2.
 
-本サンプルではiOS端末の加速度と傾き情報を用いてリアルタイムでの歩数計測を可能とします．
+![RealtimeStepCounter-SwiftSample.png](https://github.com/AtsushiOtsubo/RealtimeStepCounter-SwiftSample/blob/images/RealtimeStepCounter-SwiftSample.png?raw=true)
 
 ## Description
-歩数計測が可能なライブラリである，CMPedometerでは歩数の計測まで数秒の遅延が発生しますが，本サンプルでは加速度情報・モーション情報から，歩数を計測することにより，リアルタイムでの計測を可能とします．
+CMPedometer: iOS standard step counting library is delay several seconds until the step count. But in this sample, it is possible to measure the number of steps with realtime and high precision by using the acceleration and motion information.
 
-iOS端末に与えられる歩行時の振動の強さによって一歩を認識する閾値を自動調整するため，ポケットの中・カバンの中などあらゆる場面での正確な歩数カウントに対応します．
+iOS標準の歩数計測ライブラリ"CMPedometer"では歩数の計測まで数秒の遅延が発生しますが，本サンプルでは加速度情報・モーション情報を用いることによりリアルタイムで高精度な歩数の計測を可能とします．
 
-![RealtimeStepCounter-SwiftSample.png](https://github.com/AtsushiOtsubo/RealtimeStepCounter-SwiftSample/blob/images/RealtimeStepCounter-SwiftSample.png?raw=true)
+# Feature
+This algorithm adjusts dynamically the threshold value of step count according to the strength of vibration duaring walking. So it enables accurate step count in every scene such as in pocket or bag.
+
+歩行時の振動の強さによって，歩数カウントの閾値を動的に調節するためポケットの中・カバンの中などあらゆる場面での正確な歩数カウントを可能にします．
+
